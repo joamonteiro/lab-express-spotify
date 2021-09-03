@@ -1,0 +1,16 @@
+<div class="col-md-11 tracks-container">
+    <h1>All album tracks</h1>
+    <ol class="tracks-list">
+        {{#each allTracks}}
+        <div class="track">
+            <li>{{name}}</li>
+            <audio
+                controls
+                src="{{preview_url}}">
+                Your browser does not support the
+                <code>audio</code> element.
+            </audio>
+        </div>
+        {{/each}}
+    </ol>
+</div>

@@ -1,0 +1,240 @@
+body {
+    background-color: #161215;
+}
+
+.container {
+    height: 100vh;
+}
+
+/* Landing Page ______________________________________ */
+.landing {
+    height: 100vh !important;
+    justify-content: center;
+    align-content: center;
+}
+
+.landing .col-md-6 {
+    background-color: #43373F;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.landing form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.landing form label{
+    color: #56CA3F;
+    font-size: 30px;
+    padding: 20px 0 20px 0;
+    margin-left: 10px;
+ }
+
+.landing form input{
+    width: 100%;
+    padding: 10px 0 10px 15px;
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+.landing form input::placeholder{
+    color: #43373f52;
+}
+
+.landing form div{
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 10px;
+   padding-bottom: 20px;
+}
+
+.landing form button{
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #56CA3F;
+    border-radius: 20px;
+    color: #56CA3F;
+    padding: 5px 20px 5px 20px;
+    margin: 10px 0 0 0;
+}
+
+.landing form button:hover{
+    background-color: #16121571;
+}
+
+/* ___________________________________________________________ */
+
+/* Artists page ______________________________________________ */
+.artists-container {
+    padding-bottom: 150px;
+}
+
+.artists-container h1{
+    margin: 50px 0 50px 100px;
+    font-weight: 900;
+    font-size: 50px;
+    color: #FBF5F3;
+    text-transform: uppercase;
+}
+
+.artists-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.artists-list div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #43373f75; */
+    height: 100px;
+    width: 100%;
+    margin: 0px 50px 20px 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    /* border-radius: 20px; */
+    border-bottom: 1px solid #FBF5F3;
+}
+
+.artists-list img{
+    height: 70%;
+    border-radius: 50px;
+}
+
+.artists-list li{
+    list-style: none;
+    color: #FBF5F3;
+    margin: 0 0 0 30px;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.artists-list a{
+    border: 1px solid #56CA3F;
+    border-radius: 30px;
+    width: 200px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: #56CA3F;
+    display: flex;
+    justify-content: center;
+}
+
+.artists-list a:hover{
+    background-color: #16121571;
+}
+
+/* ___________________________________________________________ */
+
+/* Album Page ________________________________________________ */
+.album-container {
+    padding-bottom: 150px;
+}
+
+.album-container h1{
+    margin: 50px 0 50px 100px;
+    font-weight: 900;
+    font-size: 50px;
+    color: #FBF5F3;
+    text-transform: uppercase;
+}
+
+.album-list .album {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #43373f75;
+    color: #FBF5F3;
+    height: 100px;
+    width: 100%;
+    margin: 0px 50px 20px 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+.album-list .album img{
+    height: 70%;
+    border-radius: 20px;
+}
+
+.album-list .album li{
+    list-style: none;
+    color: #fbf5f3b2;
+    margin: 0 0 0 30px;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.album-list a{
+    border: 1px solid #56CA3F;
+    border-radius: 30px;
+    width: 200px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: #56CA3F;
+    display: flex;
+    justify-content: center;
+}
+
+.album-list a:hover{
+    background-color: #16121571;
+}
+/* ___________________________________________________________ */
+
+/* Tracks Page ________________________________________________ */
+.tracks-container {
+    padding-bottom: 150px;
+}
+
+.tracks-container h1{
+    margin: 50px 0 50px 100px;
+    font-weight: 900;
+    font-size: 50px;
+    color: #FBF5F3;
+    text-transform: uppercase;
+}
+
+.tracks-list .track {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #43373f75;
+    color: #FBF5F3;
+    height: 100px;
+    width: 100%;
+    margin: 0px 50px 20px 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+.tracks-list .track li{
+    color: #fbf5f3b2;
+    margin: 0 0 0 30px;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.tracks-list a{
+    border: 1px solid #56CA3F;
+    border-radius: 30px;
+    width: 200px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: #56CA3F;
+    display: flex;
+    justify-content: center;
+}
+
+.tracks-list a:hover{
+    background-color: #16121571;
+}
+/* ___________________________________________________________ */
